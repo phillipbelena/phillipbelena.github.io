@@ -1,0 +1,57 @@
+.sponsors {
+	clear: both;
+}
+.slideshow-container {
+/* 	padding: 0; */
+}
+
+/* Sponsor Holder Page styles */
+.sponsor-level-block {
+	border-top: 1px solid #ddd;	
+	clear: both;
+	display: block;
+	margin: 0 0 16px;
+}
+	.sponsor-block {
+		border-top: 1px solid #eee;		
+		clear: both;
+		display:block;
+		margin-top: 6px;
+		overflow: auto;
+		padding-top: 4px;
+	}
+		.sponsor-logo {
+			clear: left;
+			float: left;
+		}
+			.sponsor-level-block.Gold .sponsor-logo img {
+				height: auto;
+				max-width: 160px;
+			}
+			.sponsor-level-block.Silver .sponsor-logo img {
+				height: auto;
+				max-width: 140px;
+			}
+			.sponsor-level-block.Bronze .sponsor-logo img {
+				height: auto;
+				max-width: 110px;
+			}	
+		
+
+/* typography */
+.sponsor-level-block h2 {
+	font-size: 1.6em;	
+	padding: 4px 0 0;	
+}
+	.sponsor-block h3 {
+		padding-left: 10px;
+	}
+		.sponsor-level-block.Gold .sponsor-block h3 {
+			font-size: 1.5em;
+		}
+		.sponsor-level-block.Silver .sponsor-block h3 {
+			font-size: 1.44em;
+		}
+		.sponsor-level-block.Bronze .sponsor-block h3 {
+			font-size: 1.3em;
+		}		

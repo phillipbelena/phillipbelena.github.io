@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190711T173000
+DTEND;TZID=America/New_York:20190711T190000
+URL:https://www.craftsbury.com/general/about-the-center/events/community-track-practice/
+SUMMARY:Community Track Practice
+LOCATION:People's Academy Track
+DESCRIPTION:Join the Craftsbury Outdoor Center Running Program for a community track workout at the Morrisville Track on Thursday evenings. Track workouts can be a fun and motivating way to begin an individual running routine, learn more about training, and boost aerobic capacity. This program is a community outlet for ALL and encourages walking...
+END:VEVENT
+END:VCALENDAR

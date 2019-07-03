@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190705T153000
+DTEND;TZID=America/New_York:20190705T163000
+URL:https://www.craftsbury.com/general/about-the-center/events/crossfit-friday/
+SUMMARY:CrossFit Friday
+LOCATION:gym
+DESCRIPTION:CrossFit in the Activity Center gym taught by Nick Petterssen and Cady Hart of The Confluence in Montpelier. This program is open to all levels. Craftsbury guests are free, $5/session for Craftsbury Members, $10 all others. Read more.
+END:VEVENT
+END:VCALENDAR

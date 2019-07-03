@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190709T171500
+DTEND;TZID=America/New_York:20190709T184500
+URL:https://www.craftsbury.com/general/about-the-center/events/tue-race-series/
+SUMMARY:Tuesday Race Series
+LOCATION:
+DESCRIPTION:Looking for a low-key way to test your summer fitness? Starting May 28th, our weekly trail series offers a 5k run and 5 or 10k bike race every Tuesday, for only $5/race or $30 for the entire series - annual members and houseguests race for free! Registration online, bib pickup and day-of reg open at...
+END:VEVENT
+END:VCALENDAR

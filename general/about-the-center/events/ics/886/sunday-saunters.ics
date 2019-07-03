@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190707T090000
+DTEND;TZID=America/New_York:20190707T110000
+URL:https://www.craftsbury.com/general/about-the-center/events/sunday-saunters/
+SUMMARY:Sunday Saunters
+LOCATION:
+DESCRIPTION:These Sunday saunters are a way for the greater Craftsbury community to get together for some fun running! We'll provide a number of routes each week - you choose your running companions, speed, and distance! Starting locations will rotate through surrounding towns, with meet-up spots such as the Outdoor Center, Craftsbury...
+END:VEVENT
+END:VCALENDAR

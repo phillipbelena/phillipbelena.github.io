@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190703T060000
+DTEND;TZID=America/New_York:20190703T090000
+URL:https://www.craftsbury.com/general/about-the-center/events/open-gym/
+SUMMARY:Open Gym
+LOCATION:Gym
+DESCRIPTION:Want to work out on your own? After you have your annual membership, Open Gym passes are $50/person per season. Must be 18 or older to use the gym independently. Full details.
+END:VEVENT
+END:VCALENDAR
