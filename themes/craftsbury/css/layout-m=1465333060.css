@@ -1,0 +1,427 @@
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+/* article */
+article {
+	position: relative;
+}
+
+/***********************************************/
+/* #sidebar                                     */
+/***********************************************/
+
+#sidebar a:link, #craftsbury-sidebar a:link { 
+  color: #737373; 
+  text-decoration: none; 
+}
+
+#sidebar a:visited, #craftsbury-sidebar a:visited { 
+  color: #737373; 
+  text-decoration: none; 
+}
+
+#sidebar a:hover, #craftsbury-sidebar a:hover { 
+  color: #737373; 
+  text-decoration: none; 
+}
+
+#sidebar a:active, #craftsbury-sidebar a:active { 
+  color: #737373; 
+  text-decoration: none; 
+}
+
+#sidebar a:link, #craftsbury-sidebar a:link,
+#sidebar a:hover, #craftsbury-sidebar a:hover,
+#sidebar a:visited, #craftsbury-sidebar a:visited,
+#sidebar a:active, #craftsbury-sidebar a:active {
+
+}
+
+
+
+/***********************************************/
+/* #navBar                                     */
+/***********************************************/
+#navBar{
+	margin: 0px; 
+	margin-right: 0px; /* was margin-right: 10 px; */
+	padding: 0px;
+}
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+
+/***********************************************/
+/* #outer-container, #container */
+/***********************************************/
+#outer-container {
+    
+}
+#container{
+    background-image:url('../images/standard/page-background.jpg');
+    background-position:top;
+    background-repeat:repeat-y;
+	margin-left: auto;
+	margin-right: auto;
+    width:996px;
+}
+
+#coc-header-logo {
+    background-image:url('../images/standard/craftsbury_outdoor_center_1a.jpg');
+	height: 96px;
+	width: 219px;
+}
+	#coc-header-logo p,
+	#coc-header-logo p a {
+		background-color: ###;
+		color: #999;
+		font-size: 0.94em;
+		font-weight: normal;
+		padding: 4px;
+		text-transform: uppercase;
+	}
+	#coc-header-logo img {
+		margin: 12px 0 0 24px;
+	}
+
+
+
+/***********************************************/
+/* #content                                     */
+/***********************************************/
+#content{ 
+  margin: 10px 0;
+  padding: 0 40px 0 10px;
+}
+
+	/* #left-column */
+	#left-column{
+	  float: left;
+	  width:219px;
+	}
+	#left-menu {
+	    font-size: 1.4em; /* sets line height */
+	    padding-left:27px;
+	    padding-right: 10px;
+	}	
+
+		/*********** #sectionLinks styles ***********/
+		
+		#sectionLinks {
+			margin: 0;
+			padding: 0px 0px 8px 0px;
+			border-bottom: 1px solid #eeeeee; 
+		}
+			#sectionLinks a:hover, #search a:hover{
+				background-color: #efefef;
+			}
+			
+			#sectionLinks ul, #search{
+				margin: 0px;
+				padding: 0px 0px 8px 0px;
+				border-bottom: 1px solid #eeeeee; 
+			}
+			
+			/*#sectionLinks, #search{*/
+			/*    padding: 0;*/
+			/*}*/
+			#sectionLinks h3, #search h3, #sectionLinks a.sectionHeading {
+				border: none;
+				color: #5B9167;
+				font-size: 0.8em;
+				text-transform: uppercase;
+			    padding: 8px 0px 1px 0px;
+				margin: 0;
+			}
+			#sectionLinks a, #search a {
+			    border-top:1px dotted #ddd;
+			    padding: 3px 0 3px 0;
+			    font-size: 0.74em;
+			}
+			
+			#sectionLinks a.sectionHeading {
+				background-image:url('../../../images/bullets/plus.gif');
+				background-position: 172px 12px;
+				background-repeat: no-repeat;
+			    padding-right: 14px;
+			}
+			#sectionLinks a.active {
+				background-image:url('../../../images/bullets/minus.gif');
+			}	
+
+	/* #right-column */
+	#right-column {
+	    background-image:url('../../../images/standard/craftsbury-right-top.jpg');
+	    background-position:top right;
+	    background-repeat:no-repeat;
+		float: left;
+	    width: 777px;
+	}
+		div.icon-menu {
+			padding: 0 30px 0 0;
+		}
+		/* #icon-menu */
+		#content #icon-menu,
+		#icon-menu {
+			align-items: stretch;
+			display: -webkit-box;
+  			display: -moz-box;
+  			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			flex-wrap: no-wrap;
+			left: -10px;
+			list-style: none;
+			justify-content: space-around;
+		    margin: 0 auto;
+			padding: 0;
+			width: 100%;
+		}
+			#content li.icon-link,
+			li.icon-link {
+			  display: inline-block;
+			  margin: 0 auto;				
+			  padding: 0;
+			}
+			#content li.icon-link img,
+			li.icon-link img {
+				height: auto;
+			}
+			
+			/* #section-home-link */
+			#section-home-link {
+				float: right;
+				font-size: 1.05em;
+				margin: 12px 0 0;
+				padding: 0;
+			}
+			
+
+	.navbar-toggle {
+		display: none;
+	}			
+	
+	
+	#right-column div.content-home {
+	  margin-top:10px;
+	 }
+
+	 /* #footer-container */
+	#footer-container {
+	    background-image:url('../images/standard/page-bottom.jpg');
+	    background-position:top;
+	    background-repeat:no-repeat;
+	    clear: both;
+	    height: 70px;
+	    padding: 16px 27px 0 30px;
+	}
+		div.footer-info {
+		    float: left;
+			font-weight: bold;
+		    margin-left: 6px;
+		}	
+
+
+
+
+
+/***********************************************/
+/***** mini Snow Report Styles *****/
+/***********************************************/
+#miniSnow {
+  border: 1px #cccccc solid;
+  margin-bottom: 12px;
+  margin-right: 6px;
+  padding: 2px;
+ }
+ 
+	#miniSnow p.days-open-mini {
+	  color: #5B9167;
+	  font-weight: bold;
+	  border-bottom: 1px dotted #999;
+	  border-top: 1px dotted #999;
+	}
+
+	#miniSnow .cmc-conditions-box {
+		min-height: 44px;
+	}
+
+#miniSnow h3 {
+  color: #0769c2; 
+  font-size: 1.02em; /* 0.9em; */ 
+  font-weight: bold;
+  padding-top: 0px;
+ }
+
+#content #miniSnow p,
+#miniSnow p,
+#miniSnow .cmc-condition-metric {
+  	font-size: 0.9em;	 /* 11px */
+  	font-weight: normal; 
+	line-height: normal;
+  	padding: 2px 2px 0;
+}
+	
+	#miniSnow span.cmc-condition-value {
+	  font-weight: bold;
+	  color: #5B9167; 
+	}
+
+#miniSnow b {
+  font-weight: bold;
+  color: #5B9167; 
+}
+
+#miniSnow a:link { 
+  color: #5B9167; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+#miniSnow a:visited { 
+  color: #5B9167; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+#miniSnow a:hover { 
+  color: #5B9167; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+#miniSnow a:active { 
+  color: #5B9167; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+#miniSnow .cmc-mini-snow-cam-thumb {
+	float: right;
+	max-height: 60px;
+	margin: 4px 4px 2px;
+	
+}
+
+
+/***********************************************/
+/************* Search Results styles ***************/
+/***********************************************/
+ul#SearchResults,
+ul#SearchResults li {
+	list-style: none; 
+	/* margin: 0; 
+	padding: 0; */
+}
+
+
+/***********************************************/
+/************* footer - #social-media-ions, #siteInfo styles ***************/
+/***********************************************/
+#social-media-icons {
+	float:left;
+	width:186px;
+	height: 60px;
+}
+#social-media-icons img {
+	margin: 8px 0;
+	padding: 0;
+}
+
+#siteInfo{
+	/* border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc; */
+	float: left;
+	font-size: 0.86em;
+	padding: 0px 10px 4px 180px;
+	text-align: left;
+}
+#siteInfo a{
+	color: #404040;
+	padding: 0 2px;
+}
+#siteInfo #address{
+  clear:both;
+	color: #404040;
+	padding: 8px 2px;
+}
+#siteInfo #copyright {
+	color: #cccccc;
+	padding: 2px;
+}
+
+/************************/
+/* PayPal button styles */
+/**************************/
+.cocpaypalbutton {
+	float: right;
+	margin: 10px;
+	width: 150px;
+	text-align: center;
+}
+	.cocpaypalbutton p {
+		color: #4e7c59;
+	}
+
+
+
+/***********************************************/
+/* Print Styles */
+/***********************************************/
+
+/* Based on HTML5 boilerplate print styles */
+@media print {
+    .search-bar,
+    .search-dropdown-icon {
+	    display: none;
+	}
+}
+
+#content table {
+	margin-bottom:10px;
+}
+
+
+/**
+ * List Styles
+ */
+div.list-item.has-image.clear-left,
+div.list-notes.has-image.clear-left {
+ 	clear: left;
+}
+div.list-item.has-image.clear-right,
+div.list-notes.has-image.clear-right {
+ 	clear: right;
+}
+
+.list-container.transport-mode .list-item,
+.list-container .list-item.new-section {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+}
+
+/**
+ * List Anchor menu
+ */
+#content ul.list-anchor-menu,
+ul.list-anchor-menu {
+	left: 0;
+}
+#content ul.list-anchor-menu li,
+ul.list-anchor-menu li {
+	border-right: 1px solid #aaa;
+	display: inline-block;
+	left: 0;
+	list-style-type: none;
+	margin: 4px 2px;
+	padding: 0 8px 0 0;
+}
+#content ul.list-anchor-menu li.last,
+ul.list-anchor-menu li.last {
+	border-right: none;
+}
+
+.typography .list-item h2 {
+	padding: 0 0 6px 0;
+}

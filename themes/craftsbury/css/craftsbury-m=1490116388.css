@@ -1,0 +1,897 @@
+/* color selectors that shouldn't appear in CMS menu */
+.lodging,
+.elderhostel,
+.wedding,
+.entry {
+  color: #639D70; 
+	}
+	
+/* home page news header link color */
+.home-page-news h3 a:link,
+.home-page-news h3 a:visited,
+.home-page-news h3 a:active {
+  color: #639D70; 
+	}
+.home-page-news h3 a:hover {
+	color: #779f70;
+}
+
+/*home page news block format */
+.home-page-news {
+	width: 280px;
+}
+
+select {
+	color: #666;
+	background: transparent;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+}
+
+p.textmenu { 
+  font-size: 0.94em; 
+  padding: 6px 0 0 0; 
+}
+
+
+
+/***********************************************/
+/* font styles                                 */
+/***********************************************/
+
+
+#content p  { 
+  /* color: #777; */
+	line-height: 1.25em;
+  padding: 0px 0px 14px 2px; 
+  margin: 0; 
+  font-weight: normal;
+}
+
+#content ul li { 
+  padding: 0;
+  margin: 0 0 0 10px; 
+  font-weight: normal;
+}
+
+
+#content ol li { 
+  padding: 0; 
+  margin: 0px 0px 0px 10px; 
+  font-weight: normal;
+}
+
+#content dl {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#content dl dt { 
+  padding: 4px 0px 0px 0px; 
+  margin: 0px 0px 0px 10px; 
+  font-weight: bold;
+  }
+#content dl dd { 
+  padding: 0; 
+  margin: 0px 0px 0px 24px; 
+  font-weight: normal;
+}
+
+
+#content p.caption  { 
+  padding: 0px 0px 8px 4px; 
+  margin: 0; 
+  font-weight: normal;
+}
+
+/*typography.css ~line 51 */
+.likeH2 {
+  color: #5B9167; 
+  font-size: 1.2em; 
+  margin: 0; 
+  padding: 0px 0px 12px 0px;
+}
+
+/*typography.css ~line 61 */
+.like_h3 {
+  color: #5B9167; 
+  font-size: 1.02em; 
+  font-weight: bold;
+}
+p.event { 
+  font-weight: bold; 
+  padding: 2px 0 16px 2px; 
+}
+
+.boldText, .boldtext {
+  font-weight: bold;
+}
+.boldtext-red, .text_red
+{
+	color: #ba0000;
+}
+.indent {
+  margin-left: 20px;
+  margin-right: 10px;
+ }
+
+.indentFirst {
+  margin-left: 20px;
+ }
+ 
+.sectiontitle2, 
+.sectiontitle { 
+  color: #5B9167; 
+  font-size: 13px; 
+  margin: 8px 0px 0px 0px; 
+  padding: 8px 0px 0px 0px; 
+  font-weight: bold;
+}
+ 
+ 
+ 
+/***********************************************/
+/* Old Table styles */
+/***********************************************/ 
+#coc_info {
+  /*font-size: 1.3em;*/
+  padding: 0; 
+  margin: 0; 
+  font-weight: normal;
+}
+
+#coc_info table tr td {
+  padding: 0; 
+  margin: 0; 
+  font-weight: normal;
+}
+table.membership {
+  font-size: 94%;
+}
+
+table.membership td {
+  padding: 2px;
+  text-align: center;
+}
+
+table.with-lines td {
+  border: 1px solid #333;
+  font-weight: normal;
+  padding: 2px;
+}
+
+table.with-lines {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+table.light td {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+table.light tr.divider td {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+
+
+table.without-lines {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+	table.without-lines tr.odd td {
+	    background-color: #efefef;
+	}
+		table.without-lines td {
+		  border: none;
+		  font-weight: normal;
+		  padding: 2px;
+		}
+
+	table.without-lines td.head-coach {
+	  padding-left: 60px;
+	}
+
+table.sbtcRaces {
+  border-spacing: 2px 8px;
+}
+table.sbtcRaces td {
+  border-bottom:1px dotted #aaa;
+	font-weight: normal;
+	padding: 0 2px 6px 2px;
+	}
+	
+table.sbtcRaces tr.divider td {
+  background-color: #eee;
+  /*background-color: #0668BF;*/
+  border:1px solid #aaa;
+  color: #333;
+  /*color: white;*/
+  font-weight: bold;
+  font-size: 120%;
+  padding: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+table.boatSale tr.header-row td.row-divider {
+  background-color: #444;
+  color: #fff;
+  font-size: 1.04em;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.inset {
+  margin:8px 0 12px 40px;
+}
+
+table.boatSale td {
+  font-weight: normal;
+  padding: 3px 6px 3px 4px;
+}
+
+table.boatSale {
+  margin-bottom: 10px;
+}
+
+table.boatSale tr.even td {
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+}
+
+table.boatSale tr.even {
+  background-color: #E0E0E0;
+}
+
+#content td.header-data {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.plain td {
+  font-weight: normal;
+}
+table.default-table th {
+	background-color: #dddde8;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+table.default-table th.group-description {
+	color: #222;
+	font-size: 106%;
+	padding: 4px;
+	border-top: dotted 1px #aaa;
+}
+
+table.default-table tr.trail-columns th {
+	background-color: #f9f9ff;
+	border-bottom: dotted 1px #aaa;
+}
+
+/*use in addition to default-table */
+table.moreSpace th, table.moreSpaceLeft th {
+  padding: 4px;
+  text-transform: none;
+}
+
+table.default-table td {
+	font-weight: normal;
+}
+
+table.compact td {
+  font-size: .9em;
+}
+
+table.compact th {
+  font-size: .84em;
+}
+
+/*use in addition to default-table */
+table.moreSpace td {
+  padding: 4px;
+  text-align: center;
+  
+}/*use in addition to default-table */
+table.moreSpaceLeft td {
+  padding: 4px;
+}
+
+table.moreSpace td.label {
+  font-weight: bold;
+  text-align: left;
+}
+
+table.default-table tr.odd {
+	background-color: #fff;
+}
+
+table.default-table tr.even {
+	background-color: #eeeef8;
+}
+
+table.default-table td span.trail-number, table.default-table td span.trail-name {
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+
+table.default-table td span.beginner{
+  background: url('../../../images/ski/trail/beginner.gif') no-repeat top left;
+}
+
+table.default-table td span.intermediate{
+  background: url('../../../images/ski/trail/intermediate.gif') no-repeat top left;
+}
+
+table.default-table td span.advanced{
+  background: url('../../../images/ski/trail/advanced.gif') no-repeat top left;
+}
+
+table.default-table td span.trail-number {
+	color: #fff;
+	display: inline-block;
+    font-family:"Arial Rounded MT Bold", Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	filter:alpha(opacity=100);
+	opacity:1;
+	text-align: center;
+	width: 32px;
+}
+
+table.default-table td span.trail-name {
+	display: inline-block;
+	font-weight: bold;
+}
+table.without-lines td.sched-date{
+  color: #5B9167;
+  font-weight: bold;
+  font-size: 105%;
+  padding-right: 8px;
+}
+table.without-lines td.sched-time{
+  color: #737373;
+  font-weight: bold;
+  padding-right: 8px;}
+table.without-lines td { vertical-align: top;}
+
+table.oldmarathon td {
+	padding: 4px;
+}
+
+/***********************************************/
+/* automatic floating images http://jsfiddle.net/kizu/BwySX/ */
+/***********************************************/
+.lightbox-image-container.center {
+}
+	.floating-image-container.center {
+		clear: both;
+		float: left;
+		width: 100%;
+		text-align: center;	
+	}
+		.floating-image.center {
+	
+		}
+		.floating-image.left {
+			float: left;
+			margin-right: 16px;
+		}
+		.floating-image.right {
+			float: right;
+			margin-left: 16px;
+		}
+		.floating-image {
+			clear: both;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		
+	.floating-image-helper.left{
+		float: left;
+	}
+	.floating-image-helper.right{
+		float: right;
+	}
+	.floating-image-helper.center {
+		float:left;
+	}
+	.floating-image-helper {
+		clear: both;
+		height: 60px;
+	}
+	
+
+#content ul.translations,
+#content ul.translations li {
+	margin-left: 0;
+	padding-bottom: 6px;
+	padding-left: 0;
+}
+
+#content .floatImgLeft{
+  clear: both;
+	float: left;
+	padding: 3px 16px 10px 0px;
+}
+
+
+#content .floatImgRight{
+  clear: both;
+	float: right;
+	padding: 3px 0px 10px 16px;
+}
+
+#content blockquote {
+    background: url("../../../images/blockquote.gif") no-repeat scroll left top #E7E6E2;
+    clear: both;
+    color: #141310;
+    display: block;
+    font-size: 1.06em;
+    font-style: italic;
+	font-weight: normal;
+	line-height: 1.2em;
+    margin: 10px 0;
+    padding: 10px 20px 10px 45px;
+}
+
+#content .list-link {
+	color: #0769c2;
+	padding: 0 0 6px 0;
+}
+
+#content .month-divider.events {
+	color: #0769c2;	
+}
+
+
+/***********************************************/
+/* Search form */
+/***********************************************/
+
+.search-bar {
+    position: relative;
+    /*right: 13px;
+    top: 12px;*/
+}
+    .search-bar .field {
+        margin: 0;
+        padding: 0;
+    }
+    .search-bar form input.text {
+        width: 130px;
+        padding: 5px 34px 5px 15px;
+        color: #888;
+    	font-size: 0.72em;
+        margin: 0;
+        border: none;
+        -moz-border-radius: 14px;
+        border-radius: 14px;
+        background: #efefef;
+    }
+
+    .search-bar form input.action { /* positions the search button icon over the top of the search input */
+        font-size: 14px;
+        position: absolute;
+        right: 5px;
+        top: -2px;
+        cursor: pointer;
+        border: none;
+        padding: 5px;
+        background: none;
+        font-family: 'WebSymbolsRegular';
+        color: #848484;
+        border-radius: 0;
+        margin: 0;
+    }
+    .search-bar form input.active,
+    .search-bar form input.action:hover {
+        color: #000;
+    }
+    .search-bar form input:focus,
+    .header textarea:focus {
+        outline: none; /* removes default browser outlining on focus */
+    }
+    .search-dropdown-icon {
+        display: none; /* hides search-dropdown-icon when site is at full width - media queries set it to display:block when at mobile/tablet width */
+    }
+        
+        
+
+
+.search-bar:after { /* clearfix */
+    height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.search-bar form input.action { /* adds color transition when links/inputs on hover */
+    -moz-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+
+
+
+
+/***********************************************/
+/*********** .jumpMenu styles ***********/
+/***********************************************/
+/* Entry "JUMP TO" label is in entry.css */
+p.jump { 
+  color: #5B9167; 
+  font-size: 1.24em;
+  padding: 24px 0 2px 7px; 
+}
+
+form.jump { 
+  	color: #222; 
+	font-size: 0.72em; /* This is nested in SectionLinks so font size needs to be reduced */
+  	padding: 0 0 2px 0; 
+}
+
+.jumpMenu{
+    float: left;	
+	margin: 0px;
+	padding: 0px 0px 8px 0px;
+    width: 182px;	
+}
+
+.jumpMenu h3 {
+	border: none;
+	color: #5B9167;
+	font-size: .8em;
+	text-transform: uppercase;
+    padding: 8px 0 0;
+	margin: 8px 0 0 ;
+}
+
+
+.jumpMenu a:link,
+.jumpMenu a:visited {
+}
+
+
+
+/***********************************************/
+/*********** .subMenu styles ***********/
+/***********************************************/
+.subMenu{
+	border-bottom: 1px solid #eeeeee;
+    float: left;	
+	margin: 0;
+	padding: 0 0 6px 0;
+    width: 182px;	
+}
+
+.subMenu h3 {
+	border: none;
+	color: #5B9167;
+	font-size: 1.1em;
+	text-transform: uppercase;
+    padding: 4px 0 0;
+	margin: 4px 0 0 ;
+}
+
+.subMenu form { 
+  	color: #222; 
+	font-size: 0.72em; /* This is nested in SectionLinks so font size needs to be reduced */
+  	padding: 0; 
+}
+	.subMenu form select {
+		width: 170px;
+		margin-bottom: 2px;
+	}
+	
+
+
+/***********************************************/
+/* News Styles - used on all pages that display news */
+/***********************************************/
+div.news-item {
+  clear: both;
+  margin-bottom: 8px;
+}
+	div.news-item.emergency p.news {
+		font-color: red;
+	}
+
+div.first-news {
+  margin-bottom: 20px;
+}
+
+div.news-item img {
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+div.small-news img {
+  height: 60px;
+  width: 60px;
+}
+	div.small-news img.more-icon{
+		height: 10px;
+		width: 7px;
+		margin: 0;
+		padding: 0;
+	}
+
+div.first-news img.news-image {
+  height: auto;
+  width: 230px;
+}
+
+div.news-item p img {
+  float: none;
+  margin: 0;
+}
+div.news-item div.big-news {
+  display: none;
+}
+
+div.first-big-news div.first-news div.small-news {
+  display: none;
+}
+div.first-news div.big-news {
+  display: block;
+  margin-bottom: 20px;
+}
+
+div.first-news div.big-news p {
+	color: #404040;
+  padding-bottom: 0;
+}
+
+div.first-news div.big-news p.newsPhotoCaption {
+  display: block;
+  font-style: italic;
+  width: 230px;
+  
+}
+div.month-divider {
+  clear: both;
+  margin-bottom: 8px;
+  padding-top: 8px;
+}
+
+div.pagination-controls {
+	clear: both;
+	margin-top: 10px;
+}
+
+
+/**
+* News Detail Page Styles
+*/
+div.back-home-link {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+div.all-news-link {
+	float: right;
+	margin-bottom: 6px;
+}
+div.news-images {
+	clear: both;
+	float: left;
+	padding: 0;
+	margin-bottom: 6px;
+	margin-right: 20px;
+	width: 320px; /*News Image class max width */
+}
+	div.news-images div.news-image-with-caption {
+		margin-bottom: 8px;
+	}
+		#content div.news-images div.news-image-with-caption p {
+			border-bottom: 1px solid #eee;			
+			color: #444;
+			padding-bottom: 4px;
+			font-size: 96%;
+			font-style: italic;
+			font-weight: normal;
+		}
+div.news-content {
+	clear: right;
+}
+	#content div.news-content p.news-updated {	
+		font-style: italic;
+	}
+
+
+/* Toggle Styles for Events Calendar and News */
+#content #toggleLabel {
+	font-size: 1.26em;
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding: 0;
+}
+
+#content #toggleList {
+	margin: 0;
+	padding: 0 0 10px;
+}
+	#content #toggleList div.checkbox-container {
+	  display: inline-block;
+		height: 16px;
+	  margin-left: 4px;
+	  margin-right: 12px;
+	  text-align: center;
+	}
+		#content #toggleList div.checkbox-container input{
+			display: inline-block;
+			margin-bottom: 2px;
+			margin-right: 3px;
+		  vertical-align: middle;	
+		 }	
+		#content #toggleList div.checkbox-container span {
+			display: inline-block;	
+		  font-size: 110%;
+		  font-weight: bold;
+		  text-transform: uppercase;
+		  vertical-align: middle;	
+		}	
+
+#content ul, #content ol, #content li { 
+    font-weight: normal;
+	left: 1em;
+    padding: 0 0.8em 8px 0;
+	position: relative;
+    margin: 4px 10px 0 0; 
+}
+
+
+
+/*
+ * SBTC Bio styles
+ */
+#content dl.sbtc dd img.team-photo {
+	border: none;
+    clear: both;
+	float:left;
+    height: 140px;
+    margin: 0 10px 10px 0;
+    width: 140px;
+}
+
+#content dl.sbtc.archive dd img.team-photo {
+	border: none;
+    clear: both;
+	float:left;
+    height: 140px;
+    margin: 0 10px 6px 0;
+    width: 140px;
+}
+
+#content dl.sbtc h2 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#content dl.sbtc dt {
+	clear: both;
+  color: #5B9167; 
+  font-size: 14px; 
+  margin: 0; 
+  padding: 10px 0 0 0; 
+}
+
+#content dl.sbtc dt a {
+  color: #5B9167; 
+}
+
+#content dl.sbtc dd {
+	border-bottom: solid 1px #eee;
+	margin: 8px 0 0 0;
+}
+#content dl.sbtc.archive dd {
+	margin: 0 0 0 18px;
+}
+
+/* FancyBox info popup */
+.fancybox-div {
+  max-width: 600px;
+  /* display: none; */
+}
+	.fancybox-div h3 {
+  		color: #639D70;		
+	  	font-size: 124%;
+	  	font-weight: bold;
+	}
+	.fancybox-div table {
+		border-collapse: collapse;
+	  	margin-bottom: 10px;
+	}
+		.fancybox-div td{
+			border: 1px solid #ddd;
+		  	font-size: 96%;
+		  	font-weight: normal;
+			padding: 2px;
+		}
+		.fancybox-div thead td {
+		  font-weight: bold;
+		}
+	.fancybox-div p{
+	  margin-bottom: 10px;
+	  font-weight: normal;
+	  font-size: 90%;
+	}
+	
+	
+
+/***********************************************/
+/*********** #miniSnow styles ***********/
+/***********************************************/	
+/**
+#miniSnow {
+  border: 1px #cccccc solid;
+  margin-bottom: 12px;
+  margin-right: 6px;
+  padding: 2px;
+ }
+	#miniSnow h3 {
+	  color: #0769c2; 
+	  font-size:   1.02em; 
+	  font-weight: bold;
+	  padding-top: 0px;
+	 }
+	
+	#miniSnow p,
+	#miniSnow div.cmc-condition-metric {
+	  font-size: 11px; 
+	  font-weight: normal; 
+	  padding: 0px 0px 1px 2px; 
+	}
+		#miniSnow p.days-open-mini {
+		  color: #5B9167;
+		  font-weight: bold;
+		  border-bottom: 1px dotted #999;
+		  border-top: 1px dotted #999;
+		}
+	
+	#miniSnow span.cmc-condition-value {
+	  font-weight: bold;
+	  color: #5B9167; 
+	}
+	
+	#miniSnow a:link { 
+	  color: #5B9167; 
+	  font-weight: bold;
+	  text-decoration: none; 
+	}
+	
+	#miniSnow a:visited { 
+	  color: #5B9167; 
+	  font-weight: bold;
+	  text-decoration: none; 
+	}
+	
+	#miniSnow a:hover { 
+	  color: #5B9167; 
+	  font-weight: bold;
+	  text-decoration: none; 
+	}
+	
+	#miniSnow a:active { 
+	  color: #5B9167; 
+	  font-weight: bold;
+	  text-decoration: none; 
+	}
+**/
+
+/**
+ * Fix extra space on packery-gallery
+ */
+#packery-gallery .grid-item,
+#packery-gallery .grid-item img {
+	vertical-align: middle;
+}
+ */

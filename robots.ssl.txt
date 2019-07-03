@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /config/
+Disallow: /images/
+Disallow: /javascript/
+Disallow: /movies/
+Disallow: /pdf/
+Disallow: /staff/
+Disallow: /webstats/
+Disallow: /services/
+Disallow: /admin 
+Disallow: /dev 
+Disallow: /?flush 
+Disallow: /assets 
+Allow: /
+
+
+User-agent: ia_archiver 
+Disallow: /
+
+User-Agent: Googlebot-Image 
+Disallow: /admin 
+Disallow: /dev 
+Disallow: /?flush 
+Allow: /
+
+Sitemap:  http://www.craftsbury.com/general/downloads/site-map

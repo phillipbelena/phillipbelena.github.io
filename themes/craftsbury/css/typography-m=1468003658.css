@@ -1,0 +1,219 @@
+/*Styles in this file affect options in CMS HTMLEditor 
+ Prepend styles with .typography */
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('../webfonts/websymbols-regular-webfont.eot');
+    src: url('../webfonts/websymbols-regular-webfont-.eot#iefix') format('embedded-opentype'), url('../webfonts/websymbols-regular-webfont.woff') format('woff'), url('../webfonts/websymbols-regular-webfont.ttf') format('truetype'), url('../webfonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* BASE TYPOGRPHY */
+
+/* These are the default styles for the Simple theme */
+body {
+    font-size: 80%; /* This overrides the browsers default font size */
+    /*line-height: 20px; /* If you change the font-size make sure you change the line-height value as well - the usual ratio is around 1.5 (font-size x 1.5 = line-height) */
+    font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; 
+    color: #404040;
+}
+  body a { text-decoration: none; } /* this removes the underline from all links */
+  body a:link { -webkit-tap-highlight-color: #1E82C8 } /* this sets the highlight color when links are tapped on Safari (browser) on iPhone */
+
+  body .typography {
+	  color: #404040; 
+	  font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; 
+	  font-weight: bold; 
+	  background-color: white;
+  }
+
+/* HEADERS */
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+.typography h1 {
+  font-family: Geneva, Helvetica, Arial, SunSans-Regular, sans-serif; 
+  font-size: 1.74em;
+  padding: 0px 10px 8px 0px; 
+  margin: 0px 0px 0px 0px; 
+  font-weight: bold;	
+}
+
+/* craftsbury.css ~line 105 */
+.typography h2 {   
+  color: #5B9167; 
+  font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; 
+  font-size: 1.2em; 
+  margin: 0; 
+  padding: 0px 0px 12px 0px;
+}
+
+/* craftsbury.css ~line 112 */
+.typography h3,
+.typography h4{ 
+  color: #5B9167; 
+  font-size: 1.05em; 
+  margin: 0; 
+  padding: 0 0 0 2px; 
+}
+	.typography .news-headlines h3 {
+	  border-bottom: 1px solid #dddddd;
+	  font-size: .8em;
+	  padding: 3px 0 3px 2px;
+	  width: 93%;
+	}
+.typography h5,
+.typography h6  { 
+  font-size: 1.1em; 
+  margin: 0; 
+  padding: 0 0 0 2px; 
+}
+
+/* defines section colors reverse order of priority */	
+.typography .hosmerpoint {
+  color: #003257; 
+	}	
+.typography .grp {
+	color: #006f3a; 
+}
+.typography .cycling {
+	color: #006f3a; 
+}
+.typography .members {
+  color: #4348a6;
+}
+.typography .run {
+	color: #59a099; 
+	}
+.typography .ski {
+	color: #0769c2; 
+	}	
+.typography .scull {
+	color: #f49f2b; 
+	}	
+.typography .coc {
+  color: #639D70; 
+	}
+.typography .fitness {
+  color: #9966cc;
+}
+	
+.typography .red {
+	color: #ba0000;
+}
+
+
+/* PARAGRAGHS */
+.typography  p { /* font-size: 13px; line-height: 20px; margin: 0 0 20px; */ }
+  .typography .intro {
+  margin: 0; 
+  padding-left: 9px; 
+  font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;        
+/*   font-weight: bold;  */
+  color: #404040;  	
+  }
+.typography em { font-style: italic; }
+
+::selection,
+::-moz-selection { /* Applies style to highlighted portion of a page */
+    background: #b80000;
+    color: #fff;
+    text-shadow: none;
+}
+
+.typography a:link  { 
+  color: #0769c2;  
+  text-decoration: none; 
+}
+
+.typography a:visited { 
+  color: #0769c2; 
+  text-decoration: none; 
+}
+
+.typography a:hover { 
+  color: #1E82C8; 
+  text-decoration: none; 
+}
+
+.typography a:active { 
+  color: #0769c2; 
+  text-decoration: none; 
+}
+
+
+
+
+
+/* Search results */
+#content #SearchResults {
+    margin-left: 0;
+    padding-left: 0;
+}
+    #content #SearchResults li {
+        border-bottom: dotted 1px #ddd;
+        padding: 0 0 10px 0;
+        margin: 0 0 10px 2px;
+    }
+        #SearchResults li h4 {
+            font-weight: bold;
+        }
+        #SearchResults li a.readMoreLink {
+            padding-left: 2px;
+            color: #5B9167;
+        }
+        #SearchResults p .highlight {
+            background-color: #ffffdd;
+            font-weight: bold;
+        }
+
+        
+.typography .clear {
+	clear: both;
+}
+
+.typography .float-left,
+.typography #content p.float-left {
+	clear: left;
+	float: left;
+	margin: 0 16px 10px 0;
+}
+
+.typography .float-right,
+.typography #content p.float-right {
+	clear: right;
+	float: right;
+	margin: 0 0 10px 16px;
+}
+
+#Sponsor logos EFTA Mt Bike Race
+.typography div#sponsors /*, .typography div.sponsors */ {
+	display: block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.typography div#sponsors div.sponsor-block {
+    float: left;
+    margin-right: 14px;
+}
+
+.typography div#sponsors div.sponsor-block span {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.typography div#sponsors div.sponsor-block.multiple {
+    max-width: 130px;
+}

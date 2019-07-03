@@ -1,0 +1,196 @@
+#content form div.field,
+#content form div.fieldholder-small,
+#content form div.fieldgroup-field {
+	margin: 0 0 10px;
+}
+	#content form div.middleColumn {
+		display: inline-block;
+		padding-left: 6px;
+	}
+		#content form div.field.text div.middleColumn input {
+			width: 300px;
+		}
+	
+	#content form div.field label,
+	#content form div.fieldholder-small label {
+		display: inline-block;
+		min-width: 180px;
+	}
+	
+	#content form div.field.checkboxset label,
+	#content form div.field.textarea label,
+	#content form div.field.optionset label, 
+	#content form div.recaptcha label {
+		display: block;
+	}
+		#content form div.field.optionset ul li,
+		#content form div ul.optionset li {
+			list-style: none;
+		}
+			#content form div.field.optionset ul li input,
+			#content form div.field.optionset ul li label,
+			#content form div ul.optionset li input,
+			#content form div ul.optionset li label {
+				display: inline-block;
+			}
+		#content form fieldset.single-line-optionset {
+			clear: both;
+		}
+			
+		#content form div.field.single-line-optionset ul,
+		#content form div ul.single-line-optionset {
+			margin-left: 0;
+		}
+			#content form div.field.single-line-optionset ul li,
+			#content form div ul.single-line-optionset li {
+				display: inline-block;
+				margin-left: 0;
+			}
+				#content form div.field.single-line-optionset ul li label,
+				#content form div ul.single-line-optionset li label {
+					min-width: 0;
+					padding-right: 16px;
+				}			
+		
+		#content form fieldset.field.no-indent-optionset {
+			clear: none;
+			float:left;
+		}
+			#content form div.field.no-indent-optionset ul,
+			#content form div ul.no-indent-optionset {
+				margin-left: 0;
+			}		
+				#content form div.field.no-indent-optionset ul li,
+				#content form div ul.no-indent-optionset li {
+					margin: 1px 0;
+					padding-left: 0;
+				}
+					#content form div.field.no-indent-optionset ul li label,
+					#content form div ul.no-indent-optionset li label {
+						padding:2px 10px 2px 2px; 
+						width: 90%;
+					}
+					#content form div.field.no-indent-optionset ul li input,
+					#content form div ul.no-indent-optionset li input {
+						float: left;
+						margin: 4px 0 0 2px;
+					}
+					
+						
+		#content form div[id^="EditableLiteralField"],
+		#content form div[id*="EditableLiteralField"],
+		#content form div[id^="EditableReadOnlyField"] label,
+		#content form div[id*="EditableReadOnlyField"] label  {
+			clear: both;
+			margin-bottom: 10px;	
+		}
+				
+			#content form div[id^="EditableLiteralField"] label,
+			#content form div[id*="EditableLiteralField"] label,
+			#content form div[id^="EditableReadOnlyField"] label,
+			#content form div[id*="EditableReadOnlyField"] label {
+				color: #5b9167;
+				display: block; 
+				float: left;
+				font-size: 1.02em;
+				font-weight: bold;
+				margin-bottom: 0;
+				padding-right: 3px;
+				text-transform: uppercase;
+				min-width: 0;
+				width: auto;
+			}
+			#content form div[id^="EditableLiteralField"] div.literalFieldArea,
+			#content form div[id*="EditableLiteralField"] div.literalFieldArea,
+			#content form div[id^="EditableReadOnlyField"] div,
+			#content form div[id*="EditableReadOnlyField"] div {
+				display: block; 
+				font-weight: normal;
+				padding: 0;
+			}
+				
+				#content form div[id^="EditableReadOnlyField"] div span,
+				#content form div[id*="EditableReadOnlyField"] div span {
+					margin: 0;		
+					padding: 0;	
+				}
+				
+	#content form label span {
+		color: red;
+	}
+	
+	#content form label.right {
+		font-style: italic;
+		font-weight: normal;
+	}
+	
+	
+	#content form div textarea {
+		display: block;
+		width: 400px;
+	}
+	
+#content form .requiredField label.left::after {
+/* pseudo element adds an asterisk to a required fields label */
+   color: #ba0000;
+   content: "*";
+   font-size: 1.1em;
+   font-weight: bold;
+   padding-left: 3px;
+}
+#content form .requiredField label.left,
+#content form div.field label.left { 
+	margin-bottom: 0;
+}
+
+#content form div.recaptcha label {
+	display: none;
+}
+
+
+#content form span.message {
+	background-color: #fff3f3;
+	color: #ba0000;
+	font-size: 0.9em;
+	font-weight: normal;
+	padding-left: 6px;
+}
+
+/*
+ * DIVIDERS
+ */
+#content form div.extra-space-above,
+#content form h3.extra-space-above {
+	margin-top: 16px;
+}
+/* #content form h3.FormHeading.section-divider, */
+#content form h3[data-id^="COCDividerField"],
+#content form h3[data-id*="COCDividerField"] {
+	background-color: #eee;	
+	color: #333;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 20px 0 6px 0;
+	padding: 4px 10px 4px 4px;
+	width: 100%;
+}
+
+/* 3 part date field width */
+#content form div.field.text div.middleColumn input[id^="EditableMonthDayYearField"],
+#content form div.field.text div.middleColumn input[id*="EditableMonthDayYearField"] {
+	width: 36px;
+}
+#content form div.field.text.nolabel {
+	margin: 0;
+}
+	#content form div.literalFieldArea {
+		padding: 0;
+		width: 100%;
+	}
+		#content form div hr {
+			width:100%;
+		}
+
+.typography #content form h3 {
+	padding-left: 0;
+}

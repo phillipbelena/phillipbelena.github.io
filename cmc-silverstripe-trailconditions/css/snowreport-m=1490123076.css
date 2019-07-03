@@ -1,0 +1,236 @@
+.typography div.snow-box {
+    border: 1px solid #aaaaaa;
+    padding: 0;
+    margin: 0 0 18px;
+    /*height: 115px;*/
+    /*width: 48%;*/
+    min-width: 380px;
+}
+
+#snow-details {
+    float: left;
+}
+
+#kilometers-open {
+    /*float: right;*/
+    float: left;
+}
+
+.typography div.snow-box p {
+    border-top: 1px dotted #aaa;
+    clear: both;
+    /*height: auto; */
+    padding: 2px 10px;
+}
+
+.typography div.snow-box p span.data {
+    display: inline-block;
+    float: right;
+    max-width: 220px;   
+}
+
+
+.typography div.snow-comments {
+/*    display: inline-block;
+    width: 360px;*/
+}
+
+.typography div.snow-comments p,
+#photo-gallery p {
+    padding: 2px 10px;
+}
+
+.typography div.snow-box p.header {
+    background-color: #dddde8;
+    border: none;
+}
+.typography div.snow-comments p.header,
+#photo-gallery p.header{
+    background-color: #dddde8;
+    border-bottom: 1px dotted #aaa;
+}
+
+#weather-sticker {
+    border: 1px solid #aaaaaa;
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 4px 8px 6px;
+	width: 312px;
+}
+	#weather-sticker img {
+		float: left;
+		padding: 0 6px 0 0;
+		max-width: 34px;
+	}
+	#weather-sticker span {
+		display: block;
+	}
+		#weather-sticker span span {
+			display: inline-block;
+			font-size: 0.9em;
+			padding-right: 6px;		
+		}
+			#weather-sticker span span.nl {
+				display: block;
+			}
+			#weather-sticker span.weather-links span {
+				padding-right: 0;
+			}
+				#weather-sticker span span span {
+					font-size: 1.0em;
+				}
+		#weather-sticker span.label{
+			font-weight: bold;
+		}
+		#weather-sticker span.big {
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+		#weather-sticker span.other-conditions {
+			border-bottom: solid 1px #eee;
+			border-top: solid 1px #eee;
+			font-size: 0.96em;
+			margin: 2px 2px 4px 0;
+			padding: 2px 2px 4px 6px;
+		}
+		#weather-sticker span.forecast {
+			border-bottom: solid 1px #eee;
+			padding-bottom: 4px;		
+			margin-bottom: 4px;
+		}
+			#weather-sticker span.forecast span.forecast-text {
+				display: block;
+				font-size: 0.90em;
+/* 				padding-left: 6px; */
+/* 				width: 264px; */
+			}
+		#weather-sticker span.last-weather-update {
+			font-size: 0.86em;
+			font-style: italic;
+			margin-top: 2px;
+		}
+
+.typography div.snow-box span.title,
+.typography div.snow-comments span.title,
+#photo-gallery span.title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.typography div.snow-box span.update,
+.typography div.snow-comments span.update{
+    color: #333;
+    float: right;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.typography div.snow-box span.label {
+    font-weight: bold;
+}
+
+.typography div.snow-comments,
+#photo-gallery {
+    border: 1px solid #aaaaaa;
+    clear: both;
+    margin-bottom: 20px;
+    padding: 0;
+    
+}
+
+.typography #trail-conditions {
+    /*margin: 0;*/
+    width: 100%;
+}
+
+.typography #trail-conditions td.trail-title {
+    white-space: nowrap;
+}
+
+.typography p.noaa-url {
+  padding: 12px 0 0 0;
+}
+
+        
+img.fancybox-image {
+    background-size: 100%;
+}
+
+.galleria-container {
+	height: 400px;
+	width: 724px;
+}
+
+#snow-webcam {
+	margin-bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+.webcam-block {
+	display: inline-block;
+}
+
+/* #weather-sticker {
+    border: 1px solid #aaaaaa;
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 14px 12px 10px;
+}
+#weather-sticker span {
+	display: block !important; 
+	width: 300px;
+	text-align: center; 
+	/* font-family: sans-serif; 
+	font-size: 12px; */
+/*}
+#weather-sticker img {
+	border: none;
+}
+#weather-sticker span a {
+	/* font-family: sans-serif; font-size: 12px */
+/* } */
+
+
+
+.typography table.trail-list tr.odd {
+	background-color: #fff;
+}
+
+.typography table.trail-list tr.even {
+	background-color: #eeeef8;
+}
+
+.typography table.trail-list td span.trail-number, .typography table.trail-list td span.trail-name {
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+
+.typography table.trail-list td span.beginner{
+  background: url('../../assets/Uploads/beginner.png') no-repeat top left;
+}
+
+.typography table.trail-list td span.intermediate{
+  background: url('../../assets/Uploads/intermediate.png') no-repeat top left;
+}
+
+.typography table.trail-list td span.advanced{
+  background: url('../../assets/Uploads/advanced.png') no-repeat top left;
+}
+
+.typography table.trail-list td span.trail-number {
+	color: #fff;
+	display: inline-block;
+    font-family:"Arial Rounded MT Bold", Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	filter:alpha(opacity=100);
+	opacity:1;
+	text-align: center;
+	width: 32px;
+}
+
+.typography table.trail-list td span.trail-name {
+	display: inline-block;
+	font-weight: bold;
+}

@@ -1,0 +1,29 @@
+div.sculling-schedule {
+	margin-bottom: 20px;	
+}
+#content ul.sculling-session-list {
+	margin-bottom: 10px;	
+	margin-left: 0;
+	max-width: 420px;
+}
+	#content ul.sculling-session-list li {
+		list-style-type: none;
+		padding: 2px;
+		margin-left: 0;
+	}
+		#content ul.sculling-session-list li.even {
+			background-color: #efefef;
+		}
+
+		
+#content div.running-block p {
+	padding-bottom: 3px;
+	padding-top: 2px;
+}
+
+#content div.running-block {
+	border-left: 1px dotted #ccc;
+	border-radius: 10px;
+	margin-bottom: 18px;
+	padding: 3px;
+}

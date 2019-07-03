@@ -1,0 +1,88 @@
+#news-container {
+	font-size: 0.94em;
+	float: left;
+	margin-right: 30px;
+	width: 390px;
+}
+	#news-container-title, 
+	#event-container-title,
+	#rss-container-title { 
+		padding-bottom: 20px;
+		color: #0769c2;
+		text-transform: lowercase;		
+	}
+
+	#news-container-title {
+		font-size: 1.28em;			
+	}
+	#event-container-title,
+	#rss-container-title {
+		font-size: 1.2em;
+	}
+		.list-link,
+		.rss-list-link {
+			float: right;
+			margin-right: 6px;
+		}
+		.rss-list-link a:before {
+			content: "\007C\00a0\00a0"
+		}
+		.rss-list-link a:after {
+			content: "\00a0\00a0\007C"			
+		}
+	
+			
+
+#event-blog-container {
+	font-size: 0.94em;
+	float: left; 
+	width: 304px;
+}
+
+#event-container {
+	margin-bottom: 23px;
+}
+
+.event-items h3 {
+	padding-bottom: 6px;
+}
+	.event-items h3 a,
+	.event-items h3 a:link,
+	.event-items h3 a:visited,
+	.event-items h3 a:active,
+	.event-items h3 a:hover {
+		color: #5B9167;
+	}
+	
+#content p.rss-author {
+	font-style: italic;
+	margin-bottom: 0;
+	padding: 0 60px 0 0;
+	text-align: right;
+}
+
+img.rss-more-icon {
+	height: 10px;
+	width: 7px;
+}
+
+/***********************************************/
+/* Responsive Styles < 996px
+/* one column only with icon menu 
+/***********************************************/
+@media only screen and (max-width:995px) {
+	#news-container,
+	#event-blog-container {
+		width: 100%;
+	}
+		#news-container,
+		#event-blog-container,
+		#blog-container {
+			border-top: 1px solid #eee;
+			padding: 8px 0 0;		
+		}
+		div.news-item {
+			/* clear: none; */
+			/* float: none; */
+		}
+}

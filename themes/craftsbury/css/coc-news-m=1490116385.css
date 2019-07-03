@@ -1,0 +1,22 @@
+#content div.news-text p { 
+  color: #404040;
+  /* font-size: 12px; */ 
+  font-weight: normal; 
+  padding: 0px 0px 0px 2px; 
+}
+
+#content h3.news {
+  /*color: #6f9d78;*/
+  color: #5B9167; 
+  /* font-size: 11px; */ 
+  margin: 0; 
+  padding: 0px 0px 0px 2px; }
+
+#content p.newsPhotoCaption {
+  /*color: #6f9d78;*/
+  color: #5B9167; 
+  font-size: 11px; 
+  font-weight: bold;
+  margin: 0; 
+  padding: 3px 0px 0px 2px; }
+ 

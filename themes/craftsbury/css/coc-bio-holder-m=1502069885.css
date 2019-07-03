@@ -1,0 +1,153 @@
+.typography h2 {
+	font-size: 1.4em;
+}
+
+/** SCULLING COACHES **/
+div.sculling-director-block {
+	min-height:120px;
+}
+#content p.sculling-coach-line {
+	padding-bottom:2px;
+}
+div.sculling-coach-bio{
+	display:none;
+	margin:16px 50px;
+	padding:10px;
+	border:1px solid #ddd;
+	background-color:#eee;
+}
+div.sculling-coach-bio h1 {
+	color:#5B9167;
+    font-family:Arial,Helvetica,Geneva,SunSans-Regular,sans-serif;
+    font-size:1.3em;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+div.sculling-coach-bio div p {
+	font-size:1.0em;
+    font-family:Arial,Helvetica,Geneva,SunSans-Regular,sans-serif;
+}
+div.sculling-director-block img.bio-image,
+div.sculling-coach-bio img.bio-image {
+	float:right;
+	margin: 0 12px 10px 10px;
+	height: 100px;
+	width: 100px;
+}
+div.sculling-coach-bio em { font-style: italic;}
+
+/** SBTC ATHLETES **/
+div.sbtc-current-block {
+	border-bottom: 1px solid #eee;
+	clear: both;
+	margin-bottom: 12px;
+	min-height:150px;
+}
+#content p.sbtc-line {
+	padding-bottom:2px;
+}
+div.sbtc-bio{
+	display:none;
+	margin:16px 50px;
+	padding:10px;
+	border:1px solid #ddd;
+	background-color:#eee;
+}
+div.sbtc-bio h3 {
+	color:#5B9167;
+    font-family:Arial,Helvetica,Geneva,SunSans-Regular,sans-serif;
+    font-size:1.3em;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+div.sbtc-current-block h3 {
+	color:#5B9167;
+    font-family:Arial,Helvetica,Geneva,SunSans-Regular,sans-serif;
+    font-size:1.14em;
+    font-weight:bold;
+    margin-bottom: 8px;
+}
+#content div.sbtc-current-block h3 a,
+#content div.sbtc-current-block h3 a:link ,
+#content div.sbtc-current-block h3 a:visited,
+#content div.sbtc-current-block h3 a:hover,
+#content div.sbtc-current-block h3 a:active {
+	color:#5B9167;
+}
+div.sbtc-bio div p {
+	font-size:1.0em;
+    font-family:Arial,Helvetica,Geneva,SunSans-Regular,sans-serif;
+	padding-bottom: 10px;
+}
+div.sbtc-current-block img.bio-image,
+div.sbtc-bio img.bio-image {
+	float:left;
+	margin: 0 12px 10px 0;
+	height: 140px;
+	width: 140px;
+}
+div.sbtc-bio em { font-style: italic;}
+
+div.sbtc-current-block div.bio-stats-block label,
+div.sbtc-bio div.bio-stats-block label {
+	font-weight: bold;
+}
+	div.sbtc-current-block div.bio-stats-block label::after,
+	div.sbtc-bio div.bio-stats-block label::after {
+		content: ":";
+	}
+
+
+/** RUNNING COACHES **/
+div.running-coach-block {
+	clear: both;
+}
+div.running-coach-block h2 {
+	font-size: 1.3em;
+}
+div.running-coach-block img.bio-image {
+	float:left;
+	margin: 0 12px 10px 0;
+	width: 100px;
+}
+@media only screen and (max-width:995px) {
+			div.running-coach-block {
+				clear: none;
+			}	
+}
+
+
+
+/** SKIING COACHES **/
+div.skiing-coach-block {
+	clear: both;
+}
+div.skiing-coach-block h2 {
+	font-size: 1.3em;
+	padding-bottom: 2px;
+	
+}
+div.skiing-coach-block h3 {
+	padding-bottom: 4px;
+	
+}
+div.skiing-coach-block img.bio-image {
+	float:left;
+	margin: 0 12px 10px 0;
+	width: 200px;
+}
+
+div.skiing-coach-block .bio-stats-block {
+	padding-bottom: 10px;
+}
+#content div.skiing-coach-block .bio-stats-block p {
+	padding-bottom: 2px;	
+}
+	div.skiing-coach-block .bio-stats-block p label {
+		font-weight: bold;
+	}
+@media only screen and (max-width:995px) {
+			div.skiing-coach-block {
+				clear: none;
+			}	
+}

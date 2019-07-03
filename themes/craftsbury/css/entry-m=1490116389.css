@@ -1,0 +1,139 @@
+#container{
+    background-image:url('../../../images/entry-background/page-background.jpg');
+}
+
+#content{
+  margin: 0;
+  padding: 0 40px 0 20px;
+}
+	
+.jumpMenu h3 { 
+  color: #5B9167; 
+  font-size: 1.1em; 
+  font-weight: bold;
+  padding: 2px 0 2px 7px; 
+  text-transform: uppercase;
+}
+form.jump { 
+  	color: #222; 
+	font-size: 100%;	
+  	padding: 0 0 2px 6px; 
+}
+
+#feature {
+    margin-left: 20px;
+    width: 700px;
+}
+
+#content p.feature-caption {
+	color: #737373;
+	font-size: 0.9em;
+	font-style: italic;
+	margin-bottom: 20px;
+	padding: 0 4px 8px 4px;
+	width: 306px;
+}
+
+#feature-image {
+	border: 2px solid #619c70;
+	height: 206px;
+	margin: 10px 0 3px;
+	width: 306px;
+}
+
+#feature-image img {
+	border:3px solid #fff;
+}
+
+#footer-container {
+    background-image:url('../../../images/entry-background/page-bottom.jpg');
+    padding-left: 10px; 
+}
+
+#social-media-icons {
+	width:264px;
+}
+
+
+#left-column{
+  width:271px;
+}
+
+#left-feature {
+    float: left;
+    width: 300px;
+}
+
+#left-feature span.events {
+	display: block;
+	margin-bottom: 6px;
+}
+
+#movie {
+    margin-left: 6px;
+	margin-top: 4px;
+    height: 470px;
+}
+
+#prog-info {
+    margin: 18px 20px 10px;
+    width:620px;
+    height: auto;
+	min-height: 75px;
+}
+
+
+#prog-info h2 {
+    padding-bottom: 0;
+}
+
+
+#prog-info p {
+	border-bottom: 1px dotted #eee;
+}
+
+#prog_head { 
+  color: #5e8566;
+  font-size: 1.1em;
+}
+
+#prog_desc {
+  color: #737373;
+  font-size: 1.1em;
+}
+
+
+#right-column {
+    background-image:url('../../../images/entry-background/craftsbury-right-top-2.jpg');
+    background-position:top right;
+    background-repeat:no-repeat;
+	float: left;
+    width: 725px;
+}
+
+		div.icon-menu {
+			padding: 0;
+		}
+#right-feature {
+    float: left;
+    width: 380px;
+}
+
+#siteInfo {
+	padding: 0;
+}
+#social-media-icons img {
+	margin: 0 1px;
+}
+
+p.event {
+	width: 280px;
+}
+
+#miniSnow {
+	margin-right:20px;
+}
+
+#entry-movie #flashcontent {
+    background:url('../../../images/main_photo.jpg') no-repeat;
+}

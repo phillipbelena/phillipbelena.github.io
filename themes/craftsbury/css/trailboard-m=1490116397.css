@@ -1,0 +1,205 @@
+.floatRight {
+	float: right;
+	margin-right:10px;
+}
+
+.last-update {
+	font-weight: normal;
+	font-style: italic;
+	padding-left: 10px;
+}
+
+#openTrailPercentage {
+	font-weight: bold;
+	padding-right: 10px;
+}
+#openTrails {
+	color: green;
+	font-weight: bold;
+	padding-right: 4px;	
+}
+#cautionTrails {
+	color: orange;
+	font-weight: bold;
+	padding-right: 4px;
+}
+#closeTrails {
+	color: red;
+	font-weight: bold;
+	padding-right: 4px;	
+}
+
+#primaryCondition-container {
+	display: block;
+	padding-top: 8px;
+}
+
+#content #trail-conditions {
+    /*margin: 0;*/
+    width: 100%;
+}
+
+#trailhub-info-box {
+    border: 1px solid #aaaaaa;	
+	padding: 4px 4px 0;
+	margin-bottom: 10px;
+}
+	
+	#trailhub-info-box p {
+		float: left;
+		padding: 6px 10px 4px 6px;
+		/* max-width: 200px; */
+	}
+	.trailhub-app-buttons a img {
+		/* float: left; */
+		max-height: 30px;
+		margin: 4px 2px;
+	}
+
+#trail-conditions table.trail-list {
+	width: 100%;
+}
+
+#trail-conditions .trail-board-header td {
+    background-color: #dddde8;	
+	/* background-color: #fcfcff; */
+    border-bottom: 1px dotted #aaa;
+    border-top: 1px dotted #aaa;	
+	font-size: 106%;
+	padding: 4px;
+	text-transform: uppercase;
+	text-align: center;	
+	font-size: 100%;
+	padding: 0 4px;
+}
+
+table.trail-list td span.difficulty,
+table.trail-list td span.trail-status {
+	display: inline-block;
+	height: 24px;
+	margin: 0 4px 0 0;
+	width: 24px;
+    vertical-align: middle;
+}
+	table.trail-list td span.trail-status {
+		height: 16px;
+		margin: 8px;
+		width: 16px;
+	    vertical-align: middle;
+	}
+table.trail-list td span.trail-status.CA {
+ 	background: url('../../../assets/Uploads/caution.png');
+	background-size: contain;	
+}
+table.trail-list td span.trail-status.O {
+  	background: url('../../../assets/Uploads/open.png');	
+	background-size: contain;
+}
+table.trail-list td span.trail-status.C {
+  	background: url('../../../assets/Uploads/closed.png');	
+	background-size: contain;
+}
+
+table.trail-list td span.Easy {
+  	background: url('../../../assets/Uploads/beginner.png');	
+	background-size: contain;
+}
+
+table.trail-list td span.Intermediate {
+  	background: url('../../../assets/Uploads/intermediate.png');	
+	background-size: contain;
+}
+
+table.trail-list td span.Expert {
+	height: 22px;
+	margin: 6px 4px 6px 0;
+	width: 22px;
+  	background: url('../../../assets/Uploads/advanced.png');	
+	background-size: contain;
+}
+
+table.trail-list td.trail-details{
+	padding-right: 2px;
+	white-space: nowrap;
+}
+table.trail-list td.trail-length {
+	font-weight: normal;
+}
+table.trail-list td.trail-surface {
+	white-space: nowrap;
+}
+	table.trail-list td.trail-surface span.null {
+		visibility: hidden;
+	}
+	table.trail-list td.trail-surface span.null:after {	
+		content: "&nbsp;";
+	}
+table.trail-list td.trail-notes,
+table.trail-list td.trail-surface {
+	padding-left: 2px;
+	font-weight: normal;
+}
+
+
+
+
+
+    
+
+/***********************************************/
+/* Responsive Styles < 996px
+/* one column only with icon menu 
+/***********************************************/
+@media only screen and (max-width:995px) {
+
+		.trail-list {
+			max-width: 100%;
+		}
+		
+
+		#trail-conditions .header .floatRight.trail-summary {
+			float: none;
+			display: block;
+		}
+
+		#trail-conditions .trail-board-header td {
+			padding: 0;
+		}
+		
+		table.trail-list td.trail-details {
+			white-space: normal;
+		}
+		
+		table.trail-list td.trail-details {
+			vertical-align: middle;
+		}
+		
+		table.trail-list td span.difficulty {
+			display: block;
+			float: left;
+			margin-right: 2px;
+		}
+		
+		.typography table.trail-list td span.trail-name {
+			min-height: 32px;
+			line-height: 1em;
+			padding-top: 4px;
+			vertical-align: middle;
+		}
+		
+		table.trail-list td.trail-notes {
+			vertical-align: middle;
+		}
+}
+
+
+
+
+
+
+/***********************************************/
+/* Responsive Styles < 700px
+/* narrow one column, no icon menu
+/***********************************************/	
+@media only screen and (max-width:699px) {
+}

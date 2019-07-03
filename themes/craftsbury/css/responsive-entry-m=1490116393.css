@@ -1,0 +1,142 @@
+/***********************************************/
+/* Responsive Styles < 996px
+/* one column only with icon menu 
+/***********************************************/
+@media only screen and (max-width:995px) {
+	#container {
+		background-image: none;
+	}
+		#left-column {
+			height: auto;
+			position: static;
+			width: auto;
+		}
+		#right-column {
+			background-image: none;
+			float: none;
+			margin: 0 10px 0 279px;			
+			width: auto;
+		}
+			#content {
+				padding: 0 10px;
+			}
+				#prog-info {
+					margin: 6px 0;
+					min-height: 85px;
+					width: auto;
+				}
+					#prog-desc {
+						font-size: 1em;
+					}
+				#feature {
+					float: none;					
+					margin-left: 0;
+					width: auto;
+				}
+				#left-feature,
+				#right-feature {
+					float: none;
+					position: relative;
+					width: auto;
+				}
+					.home-page-news {
+						width: auto;
+					}
+					#content p.feature-caption {
+						margin-bottom: 0;
+					}
+					div.jumpMenu {
+						margin-left: -284px;
+						margin-top: -70px;
+					}				
+		#footer-container {
+			background-image: none;
+		}
+			#social-media-icons {
+				height: auto;
+				margin: 0 0 6px 6px;
+			}
+}
+
+
+/***********************************************/
+/* Responsive Styles < 700px
+/* narrow one column, no icon menu
+/***********************************************/	
+@media only screen and (max-width:699px) {
+	#container {
+		margin-bottom 10px;
+	}
+	#left-column {
+		float: none;
+		height: auto;
+		padding-top: 11vw;
+		position: static;
+		text-align: center;
+		width: 100%;
+	}
+		#entry-movie #flashcontent {
+			background-position: top center;
+		}
+	#right-column {
+		border: none;
+		margin: 0 10px;
+		padding: 0 0 0 0;
+		position: static;
+	}
+		div.icon-menu {
+			display: block;
+			position: absolute;
+			top: 2px;
+			left: 2px;
+		}	
+		#feature {
+			margin: 0 auto;
+			width: 100%;
+		}
+			#miniSnow {
+				margin: 8px 0 12px;
+				padding: 0;
+			}
+			#feature-image {
+				height: auto;
+				max-width: 100%;
+				text-align: center;
+				vertical-align: middle;
+			}
+				#feature-image img {
+					height: auto;
+					max-width: 97%;
+					width: auto;
+				}
+			#content p.feature-caption {
+				max-width: 96%;
+				margin-bottom: 0;
+				width: auto;
+			}
+			div.jumpMenu {
+				position: static;
+				margin: 0 0 8px 0;
+				padding: 0;
+			}
+				.jumpMenu h3 {
+					margin: 0;
+				}				
+	#prog-info {
+		display: none;
+		height: 0;
+		min-height: 0;
+	}
+	#footer-container {
+		position: static;
+	}
+		#siteInfo {
+			margin-top: 0;
+			padding-bottom: 10px;
+		}	
+			#social-media-icons {
+				float: none;
+				position: static;
+				width: auto;
+			}	
+}

@@ -1,0 +1,35 @@
+table.results-table td {
+	font-weight: normal;
+}
+
+
+/* DataTables */
+
+/* Ensure that the demo table scrolls */
+th, td { white-space: nowrap; }
+
+   div.dataTables_wrapper::after, div.DTFC_ScrollWrapper {clear: none;}	
+  
+table.dataTable.compact thead th {
+	padding: 2px 24px 2px 0;
+}
+	table.dataTable.compact td {
+		width: auto;
+	}
+#sortableRosterTable_wrapper .dataTables_scrollBody,
+#sortableResultsTable_wrapper .dataTables_scrollBody {
+/* 	position: relative;
+	top: -28px; */
+}
+	#sortableRosterTable_wrapper .dataTables_scrollBody table.dataTable.compact tbody td,
+	#sortableResultsTable_wrapper .dataTables_scrollBody table.dataTable.compact tbody td	 {
+		padding: 0;
+	}
+
+
+.results-image-container {
+	margin-bottom: 8px;
+}
+	.results-image-container img {
+		max-width: 100%;
+	}

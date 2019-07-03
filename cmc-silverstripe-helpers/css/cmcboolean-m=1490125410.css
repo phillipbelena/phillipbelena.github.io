@@ -1,0 +1,8 @@
+.cmc-boolean-completed {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-image: url('../images/check.png');
+	text-indent: -9999px;
+	overflow: hidden;
+}

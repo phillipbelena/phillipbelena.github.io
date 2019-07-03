@@ -1,0 +1,305 @@
+/* @import url("https://www.craftsbury.com/themes/craftsbury/javascript/owl-carousel/owl.carousel.css");
+@import url("https://www.craftsbury.com/themes/craftsbury/javascript/owl-carousel/owl.theme.css"); */
+
+#content div.conditions-block {
+    border: 1px solid #aaaaaa;
+    padding: 0;
+    margin: 0 0 10px;
+    /*height: 115px;*/
+    /*width: 48%;*/
+    min-width: 380px;
+}
+
+#content div.conditions-block {
+    float: left;
+}
+
+
+#content div.conditions-block div {
+    border-top: 1px dotted #aaa;
+    clear: both;
+    /*height: auto; */
+    padding: 3px 7px;
+}
+
+#content div.conditions-block span.cmc-condition-value {
+    display: inline-block;
+    float: right;
+	font-weight: normal;
+    max-width: 220px;   
+}
+
+
+#content div.snow-comments {
+/*    display: inline-block;
+    width: 360px;*/
+}
+
+
+#content div.conditions-block div.conditions-header {
+    background-color: #dddde8;
+    border: none;
+}
+
+#content div.snow-comments div.conditions-header {
+    background-color: #dddde8;
+    border-bottom: 1px dotted #aaa;
+}
+
+#weather-sticker {
+    border: 1px solid #aaaaaa;
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 4px 8px 6px;
+	width: 312px;
+}
+	#weather-sticker img {
+		float: left;
+		padding: 0 6px 0 0;
+		max-width: 34px;
+	}
+	#weather-sticker span {
+		display: block;
+	}
+		#weather-sticker span span {
+			display: inline-block;
+			font-size: 0.9em;
+			font-weight: normal;
+			padding-right: 6px;		
+		}
+			#weather-sticker span span.nl {
+				display: block;
+			}
+			#weather-sticker span.weather-links span {
+				padding-right: 0;
+			}
+				#weather-sticker span span span {
+					font-size: 1.0em;
+				}
+		#weather-sticker span.label{
+			font-weight: bold;
+		}
+		#weather-sticker span.big {
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+		#weather-sticker span.other-conditions {
+			border-bottom: solid 1px #eee;
+			border-top: solid 1px #eee;
+			font-size: 0.96em;
+			margin: 2px 2px 4px 0;
+			padding: 2px 2px 4px 6px;
+		}
+		#weather-sticker span.forecast {
+			border-bottom: solid 1px #eee;
+			padding-bottom: 4px;		
+			margin-bottom: 4px;
+		}
+			#weather-sticker span.forecast span.forecast-text {
+				display: block;
+				font-size: 0.90em;
+/* 				padding-left: 6px; */
+/* 				width: 264px; */
+			}
+		#weather-sticker span.last-weather-update {
+			font-size: 0.86em;
+			font-style: italic;
+			font-weight: normal;
+			margin-top: 2px;
+		}
+
+#content div.conditions-block span.title,
+#content div.snow-comments span.title,
+#photo-gallery span.title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#content div.conditions-block span.conditions-update,
+#content div.snow-comments span.update{
+    color: #333;
+    float: right;
+    font-style: italic;
+	font-weight: normal;
+    margin-left: 20px;
+}
+
+#content div.conditions-block .conditions-header .conditions-description {
+	font-style: italic;
+	font-weight: normal;
+	display: block;
+}
+
+#content div.conditions-block div.cmc-condition-metric {
+	font-weight: normal;
+}
+#content div.conditions-block span.cmc-condition-label {
+    font-weight: bold;
+}
+
+#content div.snow-comments {
+    border: 1px solid #aaaaaa;
+    clear: both;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#content div.snow-comments div.event-items {
+    border-top: 1px dotted #aaa;
+    clear: both;
+    /*height: auto; */
+    padding: 3px 7px;
+}
+
+#content div.snow-comments p {
+	padding: 10px;
+}
+#content div.snow-comments p.header {
+    padding: 2px 10px;
+}
+
+
+#content #potd {
+	border: none;
+}
+
+#content #potd p.header {
+    border: 1px solid #aaaaaa;	
+}
+
+
+#content #trail-conditions {
+    /*margin: 0;*/
+    width: 100%;
+}
+#trail-conditions th {
+    background-color: #dddde8;
+    border-bottom: 1px dotted #aaa;
+	font-size: 106%;
+	padding: 4px;
+	text-transform: uppercase;
+}
+#trail-conditions .trail-columns th {
+	background-color: #fcfcff;
+	font-size: 100%;
+	padding: 0;
+}
+
+#content #trail-conditions td.trail-title {
+    white-space: nowrap;
+}
+#trail-conditions td.trail-kilometers,
+#trail-conditions td.trail-groomed,
+#trail-conditions td.trail-note, 
+#trail-conditions td.trail-closed {
+	font-weight: normal;
+}
+
+
+#content p.noaa-url {
+  padding: 12px 0 0 0;
+}
+
+        
+img.fancybox-image {
+    /* background-image: url('https://www.craftsbury.com/images/ski/trail/animatedmap/background.png'); */
+    background-size: 100%;
+}
+
+.galleria-container {
+	height: 400px;
+	width: 724px;
+}
+
+#snow-webcam {
+	clear: both;
+	margin-bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+.webcam-block {
+	display: inline-block;
+}
+
+/* owl carousel */
+/* smushed together thumbnails seem to be a slow Internet connection problem */
+
+
+    #sync1 .item{
+        background: #5e91de;
+        padding: 10px 0px 10px;
+        margin: 10px 0 0;
+        color: #FFF;
+/*         -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px; */
+        text-align: center;
+    }
+    #sync2 .item{
+        background: #dedede;
+        padding: 4px 1px;
+        margin: 0;
+        color: #FFF;
+/*         -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px; */
+        text-align: center;
+        cursor: pointer;
+    }
+    #sync2 .synced .item{
+      background: #5e91de;
+    }
+     
+    
+    
+
+/***********************************************/
+/* Responsive Styles < 996px
+/* one column only with icon menu 
+/***********************************************/
+@media only screen and (max-width:995px) {
+
+	
+	#snow-info-wrapper {
+		text-align: center;
+	}
+		#content #snow-info-wrapper .conditions-block,
+		#snow-info-wrapper #weather-sticker {
+			float: none;
+			margin: 0 auto 10px;
+			text-align: left;
+			min-width: 0;
+			width: 95%;
+			vertical-align: top;
+		}	
+		
+		#snow-info-wrapper .snow-comments {
+			text-align: left;
+		}
+		
+		#content #snow-info-wrapper .conditions-block,
+		#content .conditions-block {
+			width: 100%;
+		}
+		
+		#trailboard {
+			max-width: 100%;
+		}
+		
+}
+
+
+
+
+
+
+/***********************************************/
+/* Responsive Styles < 700px
+/* narrow one column, no icon menu
+/***********************************************/	
+@media only screen and (max-width:699px) {
+	/*Snow Report gallery */
+	#sync1 .item img {
+		max-width: 90%;
+	}
+}

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190709T163000
+DTEND;TZID=America/New_York:20190709T180000
+URL:https://www.craftsbury.com/general/about-the-center/events/community-rowing/
+SUMMARY:Community Rowing
+LOCATION:
+DESCRIPTION:Hosmer Community Rowing (CommRow) runs four afternoons a week on Great Hosmer Pond, from mid-May through the end of September. Whether you're an experienced sculler or have never been in a boat before, Craftsbury Outdoor Center staff and Green Racing Project athletes will be on hand to help you take...
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,167 @@
+#cmc-js-calendar {
+	margin-top: 10px;
+	min-width: 600px;
+	min-height: 400px;
+}
+.fc-header-title h2 {
+	margin-bottom: 0;
+	padding: 6px 0 0;
+}
+
+/* defines  calendar colors highest priority color last */
+.fc-event,
+.fc-event .fc-event-inner {
+  color: #333;
+  font-weight: normal;
+  /* default color same as members */
+  background-color: #c6c8e4;
+  border-color: #c6c8e4;		
+}
+
+/* 40% transparency #3A87AD */
+.fc-event.fitness,
+.fc-event.fitness .fc-event-inner,
+div.fitness div.fc-event {
+  background-color: #b0cfde;
+  border-color: #b0cfde;
+}
+
+/* 30% transparency #4348a6 */
+.fc-event.members,
+.fc-event.members .fc-event-inner,
+div.members div.fc-event {
+  background-color: #c6c8e4;
+  border-color: #c6c8e4;
+}
+
+/* 45% transparency #8cbea6 */
+.fc-event.grp,
+.fc-event.grp .fc-event-inner,
+div.grp div.fc-event {
+	background-color: #006f3a; 
+	border-color: #006f3a; 
+}
+.fc-event.cycling,
+.fc-event.cycling .fc-event-inner,
+div.cycling div.fc-event {
+	background-color: #006f3a; 
+	border-color: #006f3a; 
+}
+
+/* 40%  transparency #639D70 */
+.fc-event.coc,
+.fc-event.coc .fc-event-inner,
+div.coc div.fc-event {
+  background-color: #c1d8c6; 
+  border-color: #c1d8c6; 
+}
+
+/* 40% transparencty #0769c2 */
+.fc-event.ski,
+.fc-event.ski .fc-event-inner,
+div.ski div.fc-event {
+	background-color: #9cc3e7; 
+	border-color: #9cc3e7; 
+}
+
+/* 50% transparency #59a099 */
+.fc-event.run,
+.fc-event.run .fc-event-inner,
+div.run div.fc-event {
+	background-color: #accfcc; 
+	border-color: #accfcc; 
+}
+
+/* 50% transparency #f49f2b */
+.fc-event.scull,
+.fc-event.scull .fc-event-inner,
+div.scull div.fc-event {
+	background-color: #f9cf95; 
+	border-color: #f9cf95; 
+}
+
+
+/******* PAST ***********/
+/* default color same as members */
+.fc-event.past,
+.fc-event.past .fc-event-inner,
+div.past div.fc-event {
+  background-color: #d9daed;
+  border-color: #d9daed;
+	color: #999;	
+}
+/* 40% transparency #3A87AD */
+.fc-event.fitness.past,
+.fc-event.fitness.past .fc-event-inner,
+div.fitness.past div.fc-event {
+  background-color: #d4e5ed;
+  border-color: #d4e5ed;
+  color: #999;
+}
+
+/* 20% transparency #4348a6 */
+.fc-event.members.past,
+.fc-event.members.past .fc-event-inner,
+div.members.past div.fc-event  {
+  background-color: #d9daed;
+  border-color: #d9daed;
+	color: #999;
+}
+/* 22% transparency #8cbea6 */
+.fc-event.grp.past,
+.fc-event.grp.past .fc-event-inner,
+div.grp.past div.fc-event  {
+	background-color: #e6f1eb; 
+	border-color: #e6f1eb;
+	color: #999;
+}
+.fc-event.cycling.past,
+.fc-event.cycling.past .fc-event-inner,
+div.cycling.past div.fc-event  {
+	background-color: #e6f1eb; 
+	border-color: #e6f1eb;
+	color: #999;
+}
+
+/* 25%  transparency #639D70 */
+.fc-event.coc.past,
+.fc-event.coc.past .fc-event-inner,
+div.coc.past div.fc-event {
+	background-color: #d8e6db; 
+	border-color: #d8e6db; 
+	color: #999;
+}
+
+/* 22% transparencty #0769c2 */
+.fc-event.ski.past,
+.fc-event.ski.past .fc-event-inner,
+div.ski.past div.fc-event {
+	background-color: #c9def2; 
+	border-color: #c9def2; 
+	color: #999;
+}
+
+/* 30% transparency #59a099 */
+.fc-event.run.past,
+.fc-event.run.past .fc-event-inner,
+div.run.past div.fc-event {
+	background-color: #cde2e0; 
+	border-color: #cde2e0; 
+	color: #999;
+}
+
+/* 30% transparency #f49f2b */
+.fc-event.scull.past,
+.fc-event.scull.past .fc-event-inner,
+div.scull.past div.fc-event {
+	background-color: #fce2bf; 
+	border-color: #fce2bf; 
+	color: #999;
+}
+/********* END PAST ********/
+
+
+/* shade weekends */
+td.fc-sun, td.fc-sat {
+  background-color: #eeeeee;
+}
