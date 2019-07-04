@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20171113T180000
+DTEND;TZID=America/New_York:20190831T190000
+URL:https://www.craftsbury.com/general/about-the-center/events/community-fitness/
+SUMMARY:Community Fitness
+LOCATION:Activity Center
+DESCRIPTION:Looking for an energetic and fun workout group? Come to community fitness! It's a well-rounded class developed to improve balance, strength, and coordination through circuit style training. The workouts can accommodate people of all levels and are led by members of our Green Racing Project.
+END:VEVENT
+END:VCALENDAR
