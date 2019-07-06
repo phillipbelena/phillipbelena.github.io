@@ -3,8 +3,8 @@ PRODID:-//www.craftsbury.com//EN
 VERSION:2.0
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20190709T171500
-DTEND;TZID=America/New_York:20190709T184500
+DTSTART;TZID=America/New_York:20190528T171500
+DTEND;TZID=America/New_York:20190827T184500
 URL:https://www.craftsbury.com/general/about-the-center/events/tue-race-series/
 SUMMARY:Tuesday Race Series
 LOCATION:

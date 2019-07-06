@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180101T103000
+DTEND;TZID=America/New_York:20191031T113000
+URL:https://www.craftsbury.com/general/about-the-center/events/yoga-su/
+SUMMARY:Yoga Sunday
+LOCATION:Cedar Multi-room
+DESCRIPTION:Come join our Community Yoga classes for a good stretch!Sundays at 10:30-11:30am are led by Margaret Pitkin. Yoga classes are free to all center staff and guests, $5/session for Craftsbury Outdoor Center members, and $10/session for all others. While yoga mats, blocks and straps are available, please bring your own if you have them.
+END:VEVENT
+END:VCALENDAR

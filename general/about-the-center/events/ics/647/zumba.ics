@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20171130T183000
+DTEND;TZID=America/New_York:20180322T193000
+URL:https://www.craftsbury.com/general/about-the-center/events/zumba/
+SUMMARY:Zumba
+LOCATION:Gym
+DESCRIPTION:Thursdays 6:30-7:30pm in the Activities Center Gym led by Colleen. Learn more about Zumba here.
+END:VEVENT
+END:VCALENDAR

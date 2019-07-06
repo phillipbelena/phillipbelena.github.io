@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20170326T
+DTEND;TZID=America/New_York:20170326T
+URL:https://www.craftsbury.com/general/about-the-center/events/offseason-lodging-rates-in-effect/
+SUMMARY:Off-Season Lodging Rates in effect
+LOCATION:
+DESCRIPTION:Get great deals on lodging without meals at Craftsbury in the off-season starting today!
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20170622T150000
+DTEND;TZID=America/New_York:20171116T163000
+URL:https://www.craftsbury.com/general/about-the-center/events/masters/
+SUMMARY:Masters Dryland Group
+LOCATION:
+DESCRIPTION:Masters practice during the summer and fall to gear up for ski season. Learn important skills for strength, balance, and coordination to keep you on your game this winter! Thursdays at 5:00pm either outside or in the gym. 
+END:VEVENT
+END:VCALENDAR

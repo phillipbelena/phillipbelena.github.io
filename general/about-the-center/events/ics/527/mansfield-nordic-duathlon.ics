@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180311T100000
+DTEND;TZID=America/New_York:20180311T153000
+URL:https://www.craftsbury.com/general/about-the-center/events/mansfield-nordic-duathlon/
+SUMMARY:Mansfield Nordic Duathlon
+LOCATION:
+DESCRIPTION:We're hosting Mansfield Nordic's Duathlon 6k + 6k. All ages can compete in this event that includes an in race transition from classic to skate. Read more.
+END:VEVENT
+END:VCALENDAR

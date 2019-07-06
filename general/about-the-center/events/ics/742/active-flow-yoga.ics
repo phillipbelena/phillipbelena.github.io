@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180103T063000
+DTEND;TZID=America/New_York:20180131T073000
+URL:https://www.craftsbury.com/general/about-the-center/events/active-flow-yoga/
+SUMMARY:Active Flow Yoga
+LOCATION:Multi-Purpose Room in Cedar
+DESCRIPTION:Vinyasa Yoga (aka Vinyasa Flow Yoga) is a flowing, dynamic sequence of poses that synchronizes the breath with a continuous flow of postures or movements.
+END:VEVENT
+END:VCALENDAR

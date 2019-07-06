@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180604T180000
+DTEND;TZID=America/New_York:20180903T190000
+URL:https://www.craftsbury.com/general/about-the-center/events/wellness-runningwalking-group/
+SUMMARY:Wellness Running/Walking Group
+LOCATION:Activity Center - 500 Lost Nation Rd
+DESCRIPTION:Feeling stressed or burnt out? Looking for a fresh approach to physical activity? 
+END:VEVENT
+END:VCALENDAR

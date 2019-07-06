@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20171105T090000
+DTEND;TZID=America/New_York:20190831T100000
+URL:https://www.craftsbury.com/general/about-the-center/events/ergspin/
+SUMMARY:ErgSpin Sunday
+LOCATION:Gym
+DESCRIPTION:When in Rome, you eat gelato and visit the Colosseum. When in the vicinity of Morrisville, VT, home of Concept2, you hop on an erg! Join us for an invigorating class for all abilities on either the rowing machines or SkiErgs led by one of our world class GRP athletes.
+END:VEVENT
+END:VCALENDAR

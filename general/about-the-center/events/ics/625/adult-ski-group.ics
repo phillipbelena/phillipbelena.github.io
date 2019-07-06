@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20161211T153000
+DTEND;TZID=America/New_York:20170321T163000
+URL:https://www.craftsbury.com/general/about-the-center/events/adult-ski-group/
+SUMMARY:Adult Ski Group-Wed
+LOCATION:
+DESCRIPTION:Looking for a group of fellow adults to ski with in a low-key environment? Starting December 11, we're excited to offer you just that. Our recreational ski group is free for adult members! Read more. Wednesdays 3:30 - 4:30 pm. 
+END:VEVENT
+END:VCALENDAR

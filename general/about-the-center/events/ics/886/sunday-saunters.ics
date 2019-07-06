@@ -3,8 +3,8 @@ PRODID:-//www.craftsbury.com//EN
 VERSION:2.0
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20190707T090000
-DTEND;TZID=America/New_York:20190707T110000
+DTSTART;TZID=America/New_York:20190512T090000
+DTEND;TZID=America/New_York:20190929T110000
 URL:https://www.craftsbury.com/general/about-the-center/events/sunday-saunters/
 SUMMARY:Sunday Saunters
 LOCATION:

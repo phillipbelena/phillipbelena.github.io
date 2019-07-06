@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190420T
+DTEND;TZID=America/New_York:20190420T
+URL:https://www.craftsbury.com/general/about-the-center/events/mud-n-ice-quadrathlon/
+SUMMARY:Mud n' Ice Quadrathlon
+LOCATION:
+DESCRIPTION:Save the date for this year's rendition of the Mud n' Ice Quadrathlon. The exact course will be determined as conditions solidify, but will include a 10k freestyle ski, 5 mile run, 5 mile paddle and 12 mile dirt road bike! Check this news item for more info as we have...
+END:VEVENT
+END:VCALENDAR

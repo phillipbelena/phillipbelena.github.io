@@ -3,8 +3,8 @@ PRODID:-//www.craftsbury.com//EN
 VERSION:2.0
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20190703T060000
-DTEND;TZID=America/New_York:20190703T090000
+DTSTART;TZID=America/New_York:20180430T060000
+DTEND;TZID=America/New_York:20191031T090000
 URL:https://www.craftsbury.com/general/about-the-center/events/open-gym/
 SUMMARY:Open Gym
 LOCATION:Gym

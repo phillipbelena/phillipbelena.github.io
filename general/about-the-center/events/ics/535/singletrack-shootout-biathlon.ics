@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20161009T080000
+DTEND;TZID=America/New_York:20161009T120000
+URL:https://www.craftsbury.com/general/about-the-center/events/singletrack-shootout-biathlon/
+SUMMARY:Singletrack Shootout Biathlon Race
+LOCATION:
+DESCRIPTION:Everyone is invited to test their limits on the Craftsbury Outdoor Center's trails with the 5th annual Singletrack Shootout Biathlon Race, part of our annual Oktoberfest celebration. Racers can choose between a running or mountain bike race, each with two shooting stages.
+END:VEVENT
+END:VCALENDAR

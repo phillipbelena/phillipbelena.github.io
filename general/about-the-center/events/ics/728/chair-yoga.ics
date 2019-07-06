@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180108T160000
+DTEND;TZID=America/New_York:20191031T170000
+URL:https://www.craftsbury.com/general/about-the-center/events/chair-yoga/
+SUMMARY:Chair Yoga
+LOCATION:Multi-Purpose Room in Cedar
+DESCRIPTION:Chair Yoga with Liz Keglor. Come try this new offering at COC. All abilities are welcome. Yoga classes are free to all center staff and guests, $5/session for Craftsbury Outdoor Center members, and $10/session for all others. Mondays 4:00-5:00pm in the Multi-purpose room in Cedar Lodge. More details.
+END:VEVENT
+END:VCALENDAR

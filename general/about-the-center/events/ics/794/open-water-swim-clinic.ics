@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180808T183000
+DTEND;TZID=America/New_York:20180829T191500
+URL:https://www.craftsbury.com/general/about-the-center/events/open-water-swim-clinic/
+SUMMARY:Open Water Swim Clinic
+LOCATION:
+DESCRIPTION:Masters Swim Practice is available to Adult intermediate to advanced swimmers, age 18 and up. The intention is to build skills and confidence for open water swimming and increase cardio/respiratory fitness. Full details.
+END:VEVENT
+END:VCALENDAR

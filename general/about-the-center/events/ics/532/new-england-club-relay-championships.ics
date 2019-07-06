@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20170325T
+DTEND;TZID=America/New_York:20170325T
+URL:https://www.craftsbury.com/general/about-the-center/events/new-england-club-relay-championships/
+SUMMARY:New England Club Relay Championships
+LOCATION:
+DESCRIPTION:Craftsbury hosts Mansfield's relay format. 4x4k, 2 CL, 2 FS legs. BKL race as well. More info.
+END:VEVENT
+END:VCALENDAR

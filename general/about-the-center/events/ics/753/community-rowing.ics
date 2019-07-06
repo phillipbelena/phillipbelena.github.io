@@ -3,8 +3,8 @@ PRODID:-//www.craftsbury.com//EN
 VERSION:2.0
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20190709T163000
-DTEND;TZID=America/New_York:20190709T180000
+DTSTART;TZID=America/New_York:20190520T163000
+DTEND;TZID=America/New_York:20190927T180000
 URL:https://www.craftsbury.com/general/about-the-center/events/community-rowing/
 SUMMARY:Community Rowing
 LOCATION:

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20161008T173000
+DTEND;TZID=America/New_York:20161008T200000
+URL:https://www.craftsbury.com/general/about-the-center/events/oktoberfest-dinner/
+SUMMARY:Oktoberfest Dinner
+LOCATION:COC Dining Hall
+DESCRIPTION:Celebrate the coming of autumn on Saturday, October 8th, 2016 with our Bavarian themed local dinner. Appetizers start at 5:30pm, dinner at 6:30pm.
+END:VEVENT
+END:VCALENDAR

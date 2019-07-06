@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180123T
+DTEND;TZID=America/New_York:20180123T
+URL:https://www.craftsbury.com/general/about-the-center/events/craftsbury-marathon-registration-closes/
+SUMMARY:Craftsbury Marathon Online Registration CLOSES
+LOCATION:
+DESCRIPTION:End of online registration for 2018 Craftsbury Marathon.
+END:VEVENT
+END:VCALENDAR

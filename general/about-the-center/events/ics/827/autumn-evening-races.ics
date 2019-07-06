@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180904T173000
+DTEND;TZID=America/New_York:20181009T183000
+URL:https://www.craftsbury.com/general/about-the-center/events/autumn-evening-races/
+SUMMARY:Autumn Evening Races
+LOCATION:
+DESCRIPTION:Are you bummed that the summer Tuesday Night Race series is over? So were we, so we decided to offer another option to keep things going into the fall! New this year, we are going to have a more informal fall trail race series, Autumn Evening Races.
+END:VEVENT
+END:VCALENDAR

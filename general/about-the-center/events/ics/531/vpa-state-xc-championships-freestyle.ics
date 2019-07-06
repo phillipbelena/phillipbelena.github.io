@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190228T103000
+DTEND;TZID=America/New_York:20190228T160000
+URL:https://www.craftsbury.com/general/about-the-center/events/vpa-state-xc-championships-freestyle/
+SUMMARY:VPA State XC Championships - Freestyle
+LOCATION:
+DESCRIPTION:Craftsbury welcomes the stars of the future to its trails as Vermont's high schoolers contest the Green Mountain State's Nordic ski championships (freestyle technique).
+END:VEVENT
+END:VCALENDAR

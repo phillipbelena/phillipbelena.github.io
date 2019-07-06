@@ -3,8 +3,8 @@ PRODID:-//www.craftsbury.com//EN
 VERSION:2.0
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTART;TZID=America/New_York:20190711T173000
-DTEND;TZID=America/New_York:20190711T190000
+DTSTART;TZID=America/New_York:20180614T173000
+DTEND;TZID=America/New_York:20181101T190000
 URL:https://www.craftsbury.com/general/about-the-center/events/community-track-practice/
 SUMMARY:Community Track Practice
 LOCATION:People's Academy Track

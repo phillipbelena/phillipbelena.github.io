@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20161017T120000
+DTEND;TZID=America/New_York:20161017T123000
+URL:https://www.craftsbury.com/general/about-the-center/events/craftsbury-marathon-registration/
+SUMMARY:Craftsbury Marathon Registration
+LOCATION:
+DESCRIPTION:&lt;a href="https://www.skireg.com/2017-craftsbury-marathon"&gt;Registration opens&lt;/a&gt; - sign up early to save money and reserve your slot in the largest marathon in the east!
+END:VEVENT
+END:VCALENDAR

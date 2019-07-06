@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190605T180000
+DTEND;TZID=America/New_York:20190828T190000
+URL:https://www.craftsbury.com/general/about-the-center/events/fit-commstrength-wed/
+SUMMARY:Community Strength
+LOCATION:Cedar Multipurpose Room
+DESCRIPTION:Community Strength is focused on getting you the full-body strength workout you need for holistic fitness. This class will begin with an introduction to the fundamentals of weightlifting. Similar to Community Fitness on Mondays, this class will use circuit-style training to help you improve balance, strength, and coordination.
+END:VEVENT
+END:VCALENDAR

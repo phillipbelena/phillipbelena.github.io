@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190202T
+DTEND;TZID=America/New_York:20190203T
+URL:https://www.craftsbury.com/general/about-the-center/events/craftsbury-marathon/
+SUMMARY:Craftsbury Marathon Ski Festival, pb Fischer Sports
+LOCATION:
+DESCRIPTION:Join us for the largest nordic ski event in the east, now with a twist! Come challenge yourself Saturday, February 2nd, with our classic marathon, skiing either 33 or 50k on some of the most scenic ski terrain in New England with up to 1000 competitors of all ages.
+END:VEVENT
+END:VCALENDAR

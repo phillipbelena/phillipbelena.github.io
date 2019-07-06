@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//www.craftsbury.com//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20190309T100000
+DTEND;TZID=America/New_York:20190309T130000
+URL:https://www.craftsbury.com/general/about-the-center/events/craftsbury-spring-fling/
+SUMMARY:Craftsbury Spring Fling
+LOCATION:
+DESCRIPTION:15/30k of freestyle fun beginning at 10:00am with ~3k BKL race to follow. 15k loop course, post-race BBQ. More info and registration at Skireg.
+END:VEVENT
+END:VCALENDAR
